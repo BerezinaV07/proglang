@@ -1,6 +1,6 @@
-# Отчет по практикуму по программированию 2
+# ГЋГІГ·ГҐГІ ГЇГ® ГЇГ°Г ГЄГІГЁГЄГіГ¬Гі ГЇГ® ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ°Г®ГўГ Г­ГЁГѕ 2
 
-## Задание 1
+## 1
 ```
 n = int(input())
 uehali = (n // 15) * 15
@@ -8,7 +8,7 @@ ostalis = n % 15
 print(uehali, ostalis)
 ```
 
-## Задание 2
+## 2
 ```
 n = input()
 cr = len(n) // 2
@@ -17,14 +17,14 @@ second = int(n[cr:])
 print(first + second)
 ```
 
-## Задание 3
+## 3
 ```
 n = int(input())
 res = n / 3
 print(f"{res:.3f}")
 ```
 
-## Задание 4
+## 4
 ```
 n = float(input())
 rub = int(n)
@@ -32,7 +32,7 @@ kop = round((n - rub) * 100)
 print(rub, "rub", kop, "kop")
 ```
 
-## Задание 5
+## 5
 ```
 n, m, c, k = map(int, input().split())
 total=n*m
@@ -44,7 +44,7 @@ else:
     print(pack*c)
 ```
 
-## Задание 6
+## 6
 ```
 n, m, k = map(int, input().split())
 total=n*m
@@ -52,7 +52,7 @@ box=(total+k-1)//k
 print(box)
 ```
 
-## Задание 7
+## 7
 ```
 import math
 n, t=input().split()
@@ -62,7 +62,7 @@ res=math.ceil(n/t*60)
 print(res)
 ```
 
-## Задание 8
+## 8
 ```
 import math
 x, y=map(float, input().split())
@@ -72,7 +72,7 @@ cnt=max(0,last-first+1)
 print(cnt)
 ```
 
-## Задание 9
+## 9
 ```
 s=input()
 summa=0
@@ -82,7 +82,7 @@ for ch in s:
 print(summa)
 ```
 
-## Задание 10
+## 10
 ```
 s=input()
 s1=s[::-1]
@@ -95,7 +95,7 @@ for ch in s1:
 print(res)
 ```
 
-## Задание 11
+## 11
 ```
 s=input()
 words=s.split()
@@ -103,7 +103,7 @@ res=[word[::-1] for word in words]
 print(" ".join(res))
 ```
 
-## Задание 12
+## 12
 ```
 def min_del(n):
     d=2
@@ -117,7 +117,7 @@ nums=list(map(int, input().split()))
 print(*[min_del(x) for x in nums])
 ```
 
-## Задание 13
+## 13
 ```
 n=int(input())
 res=0
@@ -132,7 +132,7 @@ while d*d<=n:
 print(res)
 ```
 
-## Задание 14
+## 14
 ```
 n=int(input())
 masha=0
@@ -146,7 +146,7 @@ for i in range(n):
 print(f"{masha}:{dasha}")
 ```
 
-## Задание 15
+## 15
 ```
 n=int(input())
 res=0
