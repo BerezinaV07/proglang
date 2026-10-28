@@ -1,6 +1,6 @@
-# Отчет по практике по программированию 3
+# Python 3
 
-## Задание 1
+## 1
 ```
 n=int(input())                                                            
 k=(n+24)//25
@@ -9,7 +9,7 @@ mn=n//k
 print(k,mn)
 ```
 
-## Задание 2
+## 2
 ```
 t=int(input())
 for j in range(t):
@@ -27,7 +27,7 @@ for j in range(t):
     print(res)
 ```
 
-## Задание 3
+## 3
 ```
 t=int(input())
 res=[]
@@ -52,7 +52,7 @@ for i in range(t):
 print(" ".join(res))
 ```
 
-## Задание 4
+## 4
 ```
 n=int(input())
 nums=list(map(int, input().split()))
@@ -67,7 +67,7 @@ for x in nums:
 print(res)
 ```
 
-## Задание 5
+## 5
 ```
 s=input()
 pos=0
